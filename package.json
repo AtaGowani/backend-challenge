@@ -1,0 +1,15 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "This fronend challange is for the Hack to Help Frontend Developer Commitee recruitment. Anyone applying to be a frontend developer for Hack to Help must complete this challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Hack to Help",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
