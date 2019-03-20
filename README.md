@@ -12,6 +12,12 @@ You will mainly be concerned with the server-side code which is in `index.js`. T
 
 *Must have Node.js installed before hand -- v8.11.3 recommended*
 
+**Installing Dependencies**
+
+```
+npm i
+```
+
 **Starting the server**
 
 ```
@@ -28,7 +34,7 @@ You can test if this has executed properly by opening the proper port on your br
 
 #### Part 2
 
-
+Add the proper code to `index.js` file so that whenever the user tries going to a page that is not at root i.e. `.../about` it should send the `404.html` file as a response. The file is already prepared for you and is located in `pages/`.
 
 ### Other Details
 You may change other parts of the code if you need to. Be prepared to explain your changes.
