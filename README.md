@@ -26,7 +26,7 @@ npm start
 
 #### Part 1
 
-Currently the application is looking for a `style.css` file in `public/src/css/`. This file does not exist yet. You goal is to convert the `sass` in `resources/scss/style.css` to `css` and store it in `public/src/css/` with the name `style.css`. This must be performed by adding a package to project. You do **not** need to add build tools such as `webpack` or `gulp`, keep it simple. You must also add a script so that running `npm run build` calls the proper command to transpile `scss` to `css` in the correct location.
+Currently the application is looking for a `style.css` file in `public/src/css/`. This file does not exist yet. You goal is to convert the `sass` in `resources/scss/style.scss` to `css` and store it in `public/src/css/` with the name `style.css`. This must be performed by adding a package to project. You do **not** need to add build tools such as `webpack` or `gulp`, keep it simple. You must also add a script so that running `npm run build` calls the proper command to transpile `scss` to `css` in the correct location.
 
 You can test if this has executed properly by opening the proper port on your browser. The output should look something like this.
 
